@@ -1,0 +1,18 @@
+body {
+    background-color: #140158;
+    color: white;
+    background-image: url("https://www.nasa.gov/sites/default/files/styles/2x1_cardfeed/public/thumbnails/image/yto_getcurious_universal_final_1920x1080.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left-column, .central-column, .right-column {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100vh;
+    border: 1px solid red;
+}
+.main-content-wrapper  {
+    display: flex;
+    flex-direction: row;
+}
